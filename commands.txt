@@ -1,0 +1,22 @@
+quarto check
+mkdir data && touch data/cafe.csv
+nano data/cafe.csv (added in the data)
+touch _quarto.yml
+git add .
+touch {index,sales,chart,about}.qmd
+git commit -m "Initial website skeleton"
+touch {index,sales,chart,about}.qmd
+
+Because of echo: freeze, the unchanged pages did not 
+rerun their python, since it only rerenders what's changed, 
+and nothing changed. 
+
+quarto render chart.qmd
+
+no freeze does not lock python versions
+touch .gitignore
+echo ".quarto/" >> .gitignore && echo "_site/" >> .gitignore
+git add .gitignore
+git add _freeze/ && git commit -m "add freeze"
+git add commands.txt && git commit -m "add commands"
+quarto publish gh-pages
