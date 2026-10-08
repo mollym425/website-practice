@@ -1,0 +1,12 @@
+{
+  "hash": "5013dfea81138e79a65d699ac7e45f0b",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Campus Cafe Sales Chart\"\n---\n\n@fig-cups-bar below summarizes the cups sold by bevarge in a barplot. Coffee sells the most cups, followed by lattes, tea, and hot chocolate.\n\n::: {#cell-fig-cups-bar .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![Barplot of cups sold by drink](chart_files/figure-html/fig-cups-bar-output-1.png){#fig-cups-bar width=661 height=468}\n:::\n:::\n\n\n",
+    "supporting": [
+      "chart_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
