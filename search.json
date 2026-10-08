@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Campus Cafe Sales About",
+    "section": "",
+    "text": "The data used in this are fictional practice data. Relative paths help reproducibility because it allows someone else to run the code on their computer without changing the paths, since they won’t have the same absolute paths as you. freeze: auto only reruns what has changed when you rerender1 so the whole things doesn’t rerun."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "Campus Cafe Sales About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nusing “quarto rerender”↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Campus Cafe Analysis",
+    "section": "",
+    "text": "This website presents the analysis of the cafe on campus. It could answer the following questions:\n\nWhich beverage sells the most cups?\nWhich beverage makes us the most money?\n\n\nResources Acknowledgement\nI used DATASCI 350 lecture notes from Lectures 10-11 to complete this quiz. I used OpenAI Codex only to review commands and answers I wrote myself, not to generate solutions."
+  },
+  {
+    "objectID": "chart.html",
+    "href": "chart.html",
+    "title": "Campus Cafe Sales Chart",
+    "section": "",
+    "text": "Figure 1 below summarizes the cups sold by bevarge in a barplot. Coffee sells the most cups, followed by lattes, tea, and hot chocolate.\n\n\n\n\n\n\n\n\nFigure 1: Barplot of cups sold by drink"
+  },
+  {
+    "objectID": "sales.html",
+    "href": "sales.html",
+    "title": "Campus Cafe Sales Analysis",
+    "section": "",
+    "text": "Table 1 summarizes the cups sold and price of each drink sold at the Campus Cafe. The total cups sold is 130\n\n\n\n\nTable 1: Cups sold and price by drink\n\n\n\n\n\n\n\n\n\n\ndrink\ncups\nprice\n\n\n\n\n0\nCoffee\n45\n3.0\n\n\n1\nTea\n30\n2.5\n\n\n2\nLatte\n35\n4.5\n\n\n3\nHot Chocolate\n20\n4.0"
+  },
+  {
+    "objectID": "sales.html#analysis-of-the-sales-of-the-campus-cafe",
+    "href": "sales.html#analysis-of-the-sales-of-the-campus-cafe",
+    "title": "Campus Cafe Sales Analysis",
+    "section": "",
+    "text": "Table 1 summarizes the cups sold and price of each drink sold at the Campus Cafe. The total cups sold is 130\n\n\n\n\nTable 1: Cups sold and price by drink\n\n\n\n\n\n\n\n\n\n\ndrink\ncups\nprice\n\n\n\n\n0\nCoffee\n45\n3.0\n\n\n1\nTea\n30\n2.5\n\n\n2\nLatte\n35\n4.5\n\n\n3\nHot Chocolate\n20\n4.0"
+  }
+]
