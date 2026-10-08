@@ -1,0 +1,10 @@
+---
+title: "Campus Cafe Analysis"
+---
+This website presents the analysis of the cafe on campus. It could answer the following questions:
+
+- Which beverage sells the most cups?
+- Which beverage makes us the most money?
+
+### Resources Acknowledgement
+I used DATASCI 350 lecture notes from Lectures 10-11 to complete this quiz. I used OpenAI Codex only to review commands and answers I wrote myself, not to generate solutions.

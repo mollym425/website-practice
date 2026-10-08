@@ -1,0 +1,8 @@
+---
+title: "Campus Cafe Sales About"
+---
+
+The data used in this are fictional practice data. Relative paths help reproducibility 
+because it allows someone else to run the code on their computer without changing the paths, since they won't have the same absolute paths as you. freeze: auto only reruns what has changed when you rerender[^1] so the whole things doesn't rerun. 
+
+[^1]: using "quarto rerender"

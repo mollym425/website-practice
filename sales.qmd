@@ -1,0 +1,21 @@
+---
+title: "Campus Cafe Sales Analysis"
+---
+
+## Analysis of the Sales of the Campus Cafe
+@tbl-cafe-data summarizes the cups sold and price of each drink sold at the Campus Cafe. The total 
+```{python}
+#| include: false
+
+import pandas as pd
+data = pd.read_csv("data/cafe.csv")
+```
+
+```{python}
+#| label: tbl-cafe-data
+#| tbl-cap: "Cups sold and price by drink"
+#| echo: false
+
+data
+```
+

@@ -1,0 +1,22 @@
+---
+title: "Campus Cafe Sales Chart"
+---
+
+@fig-cups-bar below summarizes the cups sold by bevarge in a barplot. Coffee sells the most cups, followed by lattes, tea, and hot chocolate.
+
+```{python}
+#| fig-cap: "Barplot of cups sold by drink"
+#| label: fig-cups-bar
+#| echo: false
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+cafe = pd.read_csv("data/cafe.csv")
+
+plt.bar(cafe["drink"], cafe["cups"])
+plt.xlabel("Drink")
+plt.ylabel("Cups sold")
+plt.tight_layout()
+plt.show()
+```
